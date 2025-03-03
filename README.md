@@ -11,54 +11,54 @@
 
 ## Требования
 
-Python 3.7+
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-nltk
-re
+- Python 3.7+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- nltk
+- re
 
 ## Установка
 
 Клонируйте репозиторий:
-git clone https://github.com/your-username/media-reputation-analysis.git
-cd media-reputation-analysis
+- git clone https://github.com/your-username/media-reputation-analysis.git
+- cd media-reputation-analysis
 Установите необходимые зависимости:
-pip install -r requirements.txt
-Загрузите необходимые ресурсы NLTK:
-import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
+- pip install -r requirements.txt
+- Загрузите необходимые ресурсы NLTK:
+- import nltk
+- nltk.download('punkt')
+- nltk.download('stopwords')
 
 ## Использование
 
 Подготовьте CSV-файл с данными публикаций в формате:
 
-topic - тема публикации
-title - заголовок публикации
-link - ссылка на публикацию
-domain - домен источника
-published_date - дата публикации
-lang - язык публикации
+- topic - тема публикации
+- title - заголовок публикации
+- link - ссылка на публикацию
+- domain - домен источника
+- published_date - дата публикации
+- lang - язык публикации
 
 
 ## Запустите скрипт:
 python reputation_analysis.py
 Результаты анализа будут сохранены в файл processed_newscatcher_data.csv и визуализированы в виде графиков:
 
-confusion_matrix.png - матрица ошибок модели
-sentiment_distribution.png - распределение тональности
-source_sentiment.png - распределение тональности по источникам
-reputation_index.png - динамика индекса репутации во времени
+- confusion_matrix.png - матрица ошибок модели
+- sentiment_distribution.png - распределение тональности
+- source_sentiment.png - распределение тональности по источникам
+- reputation_index.png - динамика индекса репутации во времени
 
 
 
 ## Структура проекта
 
-reputation_analysis.py - основной скрипт анализа
-requirements.txt - необходимые зависимости
-presentation.pptx - презентация с основными инсайтами
-labelled_newscatcher_dataset.csv - пример датасета (необходимо добавить свой)
+- reputation_analysis.py - основной скрипт анализа
+- requirements.txt - необходимые зависимости
+- presentation.pptx - презентация с основными инсайтами
+- labelled_newscatcher_dataset.csv - пример датасета (необходимо добавить свой)
 
