@@ -59,6 +59,6 @@ python reputation_analysis.py
 
 - reputation_analysis.py - основной скрипт анализа
 - requirements.txt - необходимые зависимости
-- presentation.pptx - презентация с основными инсайтами
+- presentation.pdf- презентация с основными инсайтами
 - labelled_newscatcher_dataset.csv - пример датасета (необходимо добавить свой)
 
