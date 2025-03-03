@@ -9,7 +9,7 @@
 Расчет индекса репутации компании
 Формирование рекомендаций по управлению репутацией
 
-##Требования
+## Требования
 
 Python 3.7+
 pandas
@@ -20,7 +20,7 @@ scikit-learn
 nltk
 re
 
-##Установка
+## Установка
 
 Клонируйте репозиторий:
 git clone https://github.com/your-username/media-reputation-analysis.git
